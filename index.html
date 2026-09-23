@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ERC-8004 Trust Services — Founding Validators | Cumulative Web Inc</title>
+<meta name="description" content="Evidence-bound agent validation on ERC-8004. $25 founding-validator offer. Pre-launch — honesty is the product.">
+<style>
+  :root { --bg:#0e0e12; --fg:#f5f5f7; --mut:#9a9aa3; --amber:#ffaa28; --cyan:#3cdcff; --green:#78ff96; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg); font-family:-apple-system, "Segoe UI", Inter, Helvetica, Arial, sans-serif; line-height:1.6; }
+  header.pre { background:var(--amber); color:#111; text-align:center; padding:10px 16px; font-weight:700; font-size:14px; letter-spacing:.04em; }
+  .wrap { max-width:880px; margin:0 auto; padding:0 20px; }
+  .hero { padding:64px 0 40px; }
+  .hero .logo { width:120px; height:120px; border-radius:50%; }
+  .hero h1 { font-size:46px; line-height:1.1; margin:24px 0 12px; }
+  .hero h1 .amber { color:var(--amber); }
+  .hero p.lede { font-size:20px; color:var(--mut); max-width:640px; }
+  .cta-row { margin:32px 0; }
+  .btn { display:inline-block; background:var(--amber); color:#111; font-weight:800; padding:16px 32px; border-radius:10px; text-decoration:none; font-size:18px; margin-right:12px; }
+  .btn.ghost { background:transparent; color:var(--fg); border:2px solid var(--mut); }
+  section { padding:40px 0; border-top:1px solid #232329; }
+  h2 { font-size:30px; margin-bottom:8px; }
+  .steps { display:grid; gap:16px; margin-top:20px; }
+  .step { background:#16161c; border:1px solid #2a2a33; border-radius:12px; padding:20px; }
+  .step .n { color:var(--cyan); font-weight:800; font-size:14px; letter-spacing:.08em; }
+  .incl { display:grid; gap:12px; margin-top:16px; }
+  .incl li { list-style:none; background:#16161c; border-left:4px solid var(--green); padding:16px 20px; border-radius:0 10px 10px 0; }
+  ul.incl { padding:0; }
+  .price { font-size:52px; font-weight:800; color:var(--amber); }
+  .faq dt { font-weight:700; margin-top:20px; color:var(--cyan); }
+  .faq dd { margin:6px 0 0; color:var(--mut); }
+  .honest { background:#141a12; border:1px solid #2c5a34; border-radius:12px; padding:20px; margin-top:20px; }
+  .honest h3 { margin-top:0; color:var(--green); }
+  form.offer { background:#16161c; border:1px solid #2a2a33; border-radius:12px; padding:24px; margin-top:20px; }
+  form.offer label { display:block; font-weight:700; margin:14px 0 6px; }
+  form.offer input, form.offer textarea { width:100%; padding:12px; border-radius:8px; border:1px solid #3a3a44; background:#0e0e12; color:var(--fg); font-size:16px; }
+  form.offer button { margin-top:18px; }
+  footer { padding:40px 0; color:var(--mut); font-size:14px; border-top:1px solid #232329; }
+  .creatives { display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:16px; margin-top:20px; }
+  .creatives img { width:100%; border-radius:10px; border:1px solid #2a2a33; }
+</style>
+</head>
+<body>
+<header class="pre">PRE-LAUNCH · NOTHING ON-CHAIN YET · FOUNDING VALIDATORS — $25 USDC</header>
+
+<div class="wrap">
+  <div class="hero">
+    <img class="logo" src="../../../neon-nights-777/game/art/cwi-logo-v1.jpg" alt="Cumulative Web Inc logo">
+    <h1>Who vouches <span class="amber">for your agent?</span></h1>
+    <p class="lede">ERC-8004 is the emerging on-chain standard for agent identity and reputation. CWI's trust services build your agent's registration-ready identity card, its evidence record, and an honest trust-verdict report — scored by evidence, <strong>never invented</strong>.</p>
+    <div class="cta-row">
+      <a class="btn" href="#offer">Become a founding validator — $25</a>
+      <a class="btn ghost" href="#how">How validation works</a>
+    </div>
+  </div>
+
+  <section id="how">
+    <h2>How validation works</h2>
+    <div class="steps">
+      <div class="step"><div class="n">STEP 1 · IDENTITY</div>
+        <p>We author your <strong>ERC-8004 agent card</strong> from your own stated facts — registration-ready file (type, name, description, image, services, registrations, supportedTrust, x402 support).</p></div>
+      <div class="step"><div class="n">STEP 2 · EVIDENCE</div>
+        <p>We build your <strong>reputation bootstrap record</strong> from real, citable evidence. Every claim carries a machine-checkable source pointer. Unsourced claims are <strong>rejected by code</strong>, not by policy.</p></div>
+      <div class="step"><div class="n">STEP 3 · VERDICT</div>
+        <p>We run the <strong>CWI Verdict Engine</strong> (v1.0.0, stdlib-only, byte-reproducible) on your evidence. You get a 0–100 score with band and <code>input_sha256</code> — or the honest refusal: <code>insufficient-data</code>, with the missing-evidence list. <strong>A refusal is disclosed before payment.</strong></p></div>
+      <div class="step"><div class="n">STEP 4 · REGISTRY</div>
+        <p>When our on-chain registration goes live, founding validators are validated first — with <code>proofOfPayment{txHash}</code> receipts your trust carries on-chain.</p></div>
+    </div>
+  </section>
+
+  <section id="included">
+    <h2>What's included for <span class="price">$25</span></h2>
+    <ul class="incl">
+      <li><strong>Spec-shaped ERC-8004 agent card</strong> — your agent's registration-ready identity file.</li>
+      <li><strong>Reputation schema + bootstrap evidence record</strong> — code-enforced honesty, source pointers required.</li>
+      <li><strong>Trust-verdict report</strong> — deterministic engine output: score with band and reproducibility hash, or the honest refusal with what's missing.</li>
+      <li><strong>Founding-validator priority</strong> — first validated when the registry goes live; on-chain payment receipts attached to your record.</li>
+    </ul>
+    <div class="honest">
+      <h3>The honesty clause</h3>
+      <p><strong>No score is guaranteed.</strong> Thin or disputed evidence returns a refusal, not a number. No human review is promised. All scoring is deterministic code with spec-versioned weights. If this paid offer sees <strong>zero requests within 120 days of registration, we kill it</strong> — that's our public kill rule. Nothing is on-chain yet; nothing has been sold to anyone yet.</p>
+    </div>
+  </section>
+
+  <section id="offer">
+    <h2>Founding-validator request</h2>
+    <p class="lede">Fill this out — it opens your email to <strong>hp@cumulativeweb.com</strong> with a ready-to-send request. No payment is collected on this page.</p>
+    <form class="offer" onsubmit="return false;" id="offerForm">
+      <label for="aname">Agent name / handle</label>
+      <input id="aname" name="aname" placeholder="e.g. my_agent on Moltbook" required>
+      <label for="desc">What does your agent do? (one paragraph)</label>
+      <textarea id="desc" name="desc" rows="4" placeholder="Real, checkable facts — they'll become your evidence record."></textarea>
+      <label for="email">Your contact email</label>
+      <input id="email" name="email" type="email" placeholder="you@example.com" required>
+      <button class="btn" type="submit" id="sendBtn">Open my email request</button>
+    </form>
+    <script>
+      document.getElementById('offerForm').addEventListener('submit', function () {
+        var a = document.getElementById('aname').value.trim();
+        var d = document.getElementById('desc').value.trim();
+        var e = document.getElementById('email').value.trim();
+        var subject = 'Founding Validator — ' + a;
+        var body = 'Agent name: ' + a + '\nContact: ' + e + '\n\nWhat the agent does:\n' + d +
+          '\n\nI understand: no score is guaranteed; thin or disputed evidence returns an honest refusal; nothing is on-chain yet.';
+        window.location.href = 'mailto:hp@cumulativeweb.com?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
+      });
+    </script>
+  </section>
+
+  <section>
+    <h2>FAQ — honest answers</h2>
+    <dl class="faq">
+      <dt>Is anything on-chain yet?</dt>
+      <dd>No. 36/36 tests pass on the full prep package and 9 agent cards are staged, but no registration, mint, or gas has happened. Black (Henry Pitts) holds sole wallet-signing authority; registration needs his tap.</dd>
+      <dt>Do you have any validated clients?</dt>
+      <dd>No. Zero validations have been sold. Founding validators will be the first.</dd>
+      <dt>What if my agent has no track record?</dt>
+      <dd>Then the engine says so: <code>insufficient-data</code> with the missing-evidence list. That's the honest cold-start outcome — not a failure, and never a faked number.</dd>
+      <dt>Can you just give my agent a high score?</dt>
+      <dd>No. The engine is deterministic code with spec-versioned weights; <code>claimed</code>/<code>pending</code>/<code>refuted</code> evidence counts zero, and disputed evidence refuses the whole run. Ad-hoc score edits would ship as a spec bump, never silently.</dd>
+      <dt>Is the Verdict Engine public?</dt>
+      <dd>Yes — stdlib-only Python, deterministic, byte-reproducible. You can run the honest cold-start demo yourself (instructions in the repo README).</dd>
+      <dt>What does $25 buy exactly?</dt>
+      <dd>The card, the evidence record, and the verdict report — one flat $25 USDC via x402 when settlement is live. Manual settlement at small scale; receipts always.</dd>
+    </dl>
+  </section>
+
+  <section>
+    <h2>The campaign</h2>
+    <div class="creatives">
+      <img src="ad-a-vouch.jpg" alt="Who vouches for your agent? $25 founding validation">
+      <img src="ad-b-scarcest.jpg" alt="Trust is the scarcest asset in the agent economy">
+      <img src="ad-c-insufficient.jpg" alt="Insufficient data? We say so">
+    </div>
+  </section>
+
+  <footer>
+    <p>Cumulative Web Inc · ERC-8004 Trust Services — pre-launch. Local draft only; this page is not published.</p>
+    <p>Contact: <a href="mailto:hp@cumulativeweb.com" style="color:var(--amber)">hp@cumulativeweb.com</a> · 36/36 tests green · 9 agent cards staged · 0 on-chain (by design, until the owner's tap).</p>
+  </footer>
+</div>
+</body>
+</html>
