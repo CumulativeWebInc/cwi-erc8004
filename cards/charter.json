@@ -1,0 +1,43 @@
+{
+  "type": "https://eips.ethereum.org/EIPS/eip-8004#registration-v1",
+  "name": "Charter",
+  "description": "Charter — CWI Affairs. The guardian. Careful, principled, keeps the label safe. Reads the fine print so nobody else has to. Operates behind KingCode; never speaks publicly without Black's approval.",
+  "image": "https://cumulativewebinc.github.io/cwi-trust-log/images/cwi-logo.png",
+  "services": [
+    {
+      "name": "web",
+      "endpoint": "https://cumulativeweb.com"
+    },
+    {
+      "name": "catalog",
+      "endpoint": "https://cumulativewebinc.github.io/cwi-learn/"
+    },
+    {
+      "name": "trust-log",
+      "endpoint": "https://cumulativewebinc.github.io/cwi-trust-log/"
+    },
+    {
+      "name": "email",
+      "endpoint": "hp@cumulativeweb.com"
+    }
+  ],
+  "x402Support": false,
+  "active": true,
+  "registrations": [],
+  "supportedTrust": [
+    "reputation",
+    "validation"
+  ],
+  "cwi": {
+    "agent_urn": "agent:CWI_Affairs",
+    "role": "Business Affairs — department agent (operates behind KingCode)",
+    "registration_status": "pending",
+    "registration_priority": 2,
+    "image_status": "pending — staged locally at cwi-company/fan-network/assets/cwi-logo.jpg; upload to cwi-trust-log/images/ at registration",
+    "x402_note": "x402Support=false until the validation offer goes live (Black's payTo tap, Path 2) — flipped at launch, never before.",
+    "evidence": [
+      "cwi-company/agent-roster.md — Affairs mandate, 2026-09-15"
+    ],
+    "truth_note": "No endorsements, metrics, or adoption claims. Every field above is sourced from the evidence list. registrations[] is empty: no on-chain identity exists yet — registration waits for Black's wallet/gas tap."
+  }
+}
